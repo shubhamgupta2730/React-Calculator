@@ -1,13 +1,13 @@
-
-import './App.css'
-
-
+import styles from "./App.module.css";
+import Display from "./components/Display";
+import ButtonContainer from "./components/ButtonContainer";
 function App() {
-  
-
   return (
-  <div>calculator</div>
-  )
+    <div className={styles.calculator}>
+      <Display></Display>
+     <ButtonContainer></ButtonContainer>
+    </div>
+  );
 }
 
-export default App
+export default App;
