@@ -1,10 +1,19 @@
-.display{
-  margin:12px;
+.display {
+  margin: 12px;
   margin-top: 20px;
   margin-bottom: 25px;
   width: 200px;
   font-size: 29px;
   background-color: antiquewhite;
-  border: 2px solid black;
+  border: 2px solid #000000;
   border-radius: 7px;
+  color: black;
+  text-wrap: wrap;
+  font-weight: 600;
+}
+
+.display:hover {
+  background-color: aliceblue;
+  transform: scale(1.1);
+  transition: ease-in-out;
 }
