@@ -1,13 +1,13 @@
-.calculator{
+.calculator {
   border: 3px solid rgb(79, 55, 55);
   width: 230px;
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: rgb(80, 79, 79);
- margin-left: 40%;
- margin-top: 4%;
+  margin-left: 40%;
+  margin-top: 4%;
 }
 
-
-
-
-
+.calculator:hover {
+  background-color: rgb(36, 62, 86);
+  transition: ease-in-out;
+}
